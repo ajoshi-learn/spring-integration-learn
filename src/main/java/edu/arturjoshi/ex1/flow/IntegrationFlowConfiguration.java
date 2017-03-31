@@ -24,6 +24,6 @@ public class IntegrationFlowConfiguration {
 
     @Bean
     public CommandLineRunner commandLineRunner() {
-        return strings -> helloChannel().send(MessageBuilder.withPayload("123").build());
+        return strings -> helloChannel().send(MessageBuilder.withPayload("world").build());
     }
 }

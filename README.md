@@ -66,6 +66,7 @@ A _Splitter_ receives one message and splits it into multiple messages that are 
 
 #### Aggregator
 
-A _Aggregator_ waits for a group of correlated messages and merges them together when the group is complete. The correlation of the messages typically is based on a correlation ID, and the completion is typically related to the size of the group.
+An _Aggregator_ waits for a group of correlated messages and merges them together when the group is complete. The correlation of the messages typically is based on a correlation ID, and the completion is typically related to the size of the group.
 
 ![aggregator](img/aggregator.jpg)
+
